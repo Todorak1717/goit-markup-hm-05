@@ -631,3 +631,50 @@ justify-content: center;
 
  
  
+/* ====== modal form=====*/
+.form{
+    width: 408px;
+height: 584px;
+border-radius: 4px;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+background: #fcfcfc;
+align-items:center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+border:#2e2f42;
+}
+.line-information{
+    display: flex;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
+border-radius: 4px;
+width: 360px;
+height: 336px;
+}
+.text-paragraph{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 24px;
+margin-top: 72px;
+
+}
+.text-name{
+    border: 1px solid #4d5ae5;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+.name-contact{
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+}
