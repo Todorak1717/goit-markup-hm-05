@@ -633,8 +633,8 @@ justify-content: center;
  
 /* ====== modal form=====*/
 .form{
-    width: 408px;
-height: 584px;
+  max-width: 408px;
+height: 584px;;
 border-radius: 4px;
 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 background: #fcfcfc;
@@ -653,6 +653,8 @@ gap: 8px;
 border-radius: 4px;
 width: 360px;
 height: 336px;
+margin: 16px 24px
+
 }
 .text-paragraph{
     font-weight: 500;
@@ -661,15 +663,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-margin-bottom: 24px;
+margin-bottom: 34px;
 margin-top: 72px;
 
 }
 .text-name{
-    border: 1px solid #4d5ae5;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
     height: 40px;
+   
 }
 .name-contact{
     font-weight: 400;
@@ -677,4 +680,99 @@ font-size: 12px;
 line-height: 1.16667;
 letter-spacing: 0.04em;
 color: #8e8f99;
+margin-bottom: 4px;
 }
+input::placeholder{
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+}
+.form-button{
+    border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+background: #4d5ae5;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
+align-items: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+margin-bottom: 24px;
+}
+.checkbox-one{
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+}
+.privacy-police{
+    line-height: 1.33333;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
+
+}
+.accept-rules{
+    display: flex;
+    margin-bottom: 24px;
+}
+.accept-link{
+    border-radius: 2px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+
+}
+.comment{
+border-radius: 4px;
+width: 360px;
+height: 120px;
+padding-top: 8px;
+padding-left: 16px;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color:2E2F42;
+}
+.vector-icon{
+
+
+}
+.icon-close-file{
+   
+    color: E7E9FC;
+    border-radius:50%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 100%;
+    background-color: #E7E9FC;
+stroke-width: 1px;
+width: 24px;
+height: 24px;
+margin: 24px 24px 24px 360px;
+
+stroke: rgba(0, 0, 0, 0.1);
+   
+   
+}
+.icon-close{
+
+   
+}
+
+.icon-close-file:hover,
+.icon-close-file:focus
+{
+    fill: #2e2f42;
+}
+
