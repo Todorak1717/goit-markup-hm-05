@@ -692,6 +692,7 @@ padding: 72px 24px 24px 24px;
 }
 .line-information{
     margin-bottom: 8px;
+    position: relative;
    
 }
 
@@ -712,7 +713,7 @@ margin-bottom: 16px;
 
 }
 .section-icon-one{
-    position: relative;
+  
     
     
 }
