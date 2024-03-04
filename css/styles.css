@@ -690,20 +690,10 @@ padding: 72px 24px 24px 24px;
 .icon-close:focus{
     fill: #ffffff;
 }
-
-.line-information{
-    display: flex; 
-align-items:center;
-justify-content: center;
-flex-direction: column;
-gap: 8px;
-margin-bottom: 8px;
-
-
-
-margin: 16px 24px;
-
+.margin-label-bottom{
+    margin-bottom: 8px;
 }
+
 /*
 .button-paragraph{
     padding: 72px 24px 24px 24px;
