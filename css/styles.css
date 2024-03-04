@@ -816,9 +816,10 @@ color:2E2F42;
 .label-form{
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
+    line-height: 1.17;
 }
