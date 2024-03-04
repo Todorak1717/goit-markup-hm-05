@@ -710,8 +710,9 @@ margin-bottom: 16px;
 
 
 }
-.label-icon{
+.section-icon{
     position: relative;
+    margin-bottom: 8px;
 }
 .text-name{
     border: 1px solid rgba(46, 47, 66, 0.4);
