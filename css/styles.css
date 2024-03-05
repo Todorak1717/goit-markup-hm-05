@@ -682,6 +682,7 @@ padding: 72px 24px 24px 24px;
 .icon-close-radius:focus{
     background-color:#404bbf; 
     border: none;
+    fill: #ffffff;
 }
 .icon-close{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -719,7 +720,7 @@ margin-bottom: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
 height: 40px;
- 
+background-color: transparent;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -728,8 +729,12 @@ width: 360px;
 
 
 }
+
 .text-name:focus{
-    fill: #4D5AE5;
+    
+ fill: #4D5AE5;
+    border-color: #4D5AE5;
+    
 }
 .label-form{
     font-weight: 400;
@@ -774,9 +779,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .checkbox-one{
     font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
+
 
 }
 .privacy-police{
@@ -812,23 +818,35 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .comment{
 border-radius: 4px;
-width: 360px;
+width: 100%;
 height: 120px;
-padding-top: 8px;
-padding-left: 16px;
+padding: 8px 16px;
 font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color:2E2F42;
+ margin-bottom: 16px;
+ color: rgba(46, 47, 66, 0.4);
+ border: 1px solid rgba(46, 47, 66, 0.4);
+ background-color: transparent;
+ outline: transparent;
+ resize: none;
+ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+.comment:focus{
+    border-color: #4D5AE5;
+}
+
 .vector-icon{
     position: absolute;
     left:16px;
     top:50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
+
 .label-form{
     font-weight: 400;
     font-size: 12px;
