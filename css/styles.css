@@ -790,6 +790,9 @@ color: #8e8f99;
 
 
 }
+.last-comment{
+    margin-bottom: 16px;
+}
 .privacy-police{
     display: inline-flex;
     align-items: center;
