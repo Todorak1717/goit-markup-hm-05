@@ -466,49 +466,48 @@
 
 
     <form class="form-one" name="issue-form" autocomplete="off">
+        <label class="label-form" for="user-name"> Name
 <div class="line-information">
    
-       <label class="label-form" for="user-name"> Name
+ 
         
         <input class="text-name"   id="user-name"  name="user-name" type="text">
         <svg class="vector-icon" width="18" heigh="24">
             <use href="./images/symbol-defs.svg#icon-Vector-1"></use>
             </svg>
-   
+        </div>
     </label>
-
-<div class="line-information">
-<label  class="label-form"  >
-    Phone
-   
-        <input class="text-name"   type="tel" name="phone" >
+    <label  class="label-form" for="user-name" >
+<div class="line-information" >
+Phone
+   <input class="text-name"   type="tel" name="phone"  id="user-name">
      <svg class="vector-icon" width="18" heigh="24">
             <use href="./images/symbol-defs.svg#icon-Vector-2" ></use>
         </svg>
   
-</label>
+
 </div>
-<div class="line-information">
-<label class="label-form" >
+</label>
+<label class="label-form"  for="user-name">
     Email
-   
-        <input class="text-name"   type="email" name="Email" id="user-name" >
+<div class="line-information">
+<input class="text-name"   type="email" name="Email" id="user-name" >
     <svg class="vector-icon" width="18" heigh="24">
             <use href="./images/symbol-defs.svg#icon-Vector-3" ></use>
         </svg>
-  
+  </div>
 </label>
-</div>
-<div class="line-information">
-
 <label class="label-form" for="user-comment">
     Comment
   
-    <textarea class="text-name comment" type="Comment"  placeholder="Text input" id="user-comment"></textarea>
+<div class="line-information">
 
+
+    <textarea class="text-name comment" type="Comment"  placeholder="Text input" id="user-comment"></textarea>
+</div>
 </label>
-</div>
-</div>
+
+
 
 </form>
 
@@ -526,10 +525,9 @@
 
 </div>
 <button  class="form-button" type="submit">Send</button>
-
+</div>
 </div>
 
-</div>
 
 
 </body>
