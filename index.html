@@ -414,7 +414,7 @@
             <svg class="logo-list-icon"
                 width="24"
                 height="24"
-                aria-label="instagram icon"
+                aria-label="twitter icon"
             >
            <use href="./images/icons.svg#icon-twitter-1">
         </use>
@@ -426,7 +426,7 @@
             <svg class="logo-list-icon"
                 width="24"
                 height="24"
-                aria-label="instagram icon"
+                aria-label="facebook icon"
             >
            <use href="./images/icons.svg#icon-facebook-1">
         </use>
@@ -438,7 +438,7 @@
             <svg class="logo-list-icon"
                 width="24"
                 height="24"
-                aria-label="instagram icon">
+                aria-label="linkedin icon">
            <use href="./images/icons.svg#icon-linkedin-1">
         </use>
            </svg>
@@ -450,11 +450,14 @@
     <p class="subscribe-text">Subscribe</p>
     <form class="footer-subscribe">
         <label class="label-text-line" for="user-subscribe">
-        <input class="text-line" type="email" name="subscribe" placeholder="E-mail" id="user-subscribe">
+        <input class="text-line-subscribe" type="email" name="subscribe" placeholder="E-mail" id="user-subscribe">
     </label>
 <button class="icon-subscribe-text" type="submit">Subscribe
-    <svg class="button-icon" width="24" height="24">
-        <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+    <svg class="button-icon" 
+    width="24"
+     height="24"
+     aria-label="send icon">
+        <use href="./images/icons.svg#icon-icon-send"></use>
     </svg>
 </button>
 
@@ -469,48 +472,60 @@
 <!--modal-window -one-->
 
 
-<div class="modal-window">
+<div class="modal-window is-open">
     <div class="modal-window-info">
         <button class="icon-close-radius" type="button">
-        <svg class="icon-close" width="8" height="8">
-            <use href="./images/symbol-defs.svg#icon-Vector"></use>
+        <svg class="icon-close"
+         width="8"
+          height="8"
+          aria-label="close icon">
+            <use href="./images/icons.svg#icon-Vector"></use>
 </svg>
 
 
     </button>
     <p class="text-paragraph">Leave your contacts and we will call you back</p>
-
-
-    <form class="form-one" name="issue-form" autocomplete="off">
-       
-<div class="line-information">
+<form class="form-one" name="issue-form" autocomplete="off">
+    <div class="line-information">
    <label class="label-form" for="user-name"> Name </label>
    <div class="section-icon-one">
-        <input class="text-name"   id="user-name"  name="user-name" type="text">
-        <svg class="vector-icon" width="18" height="24">
-            <use href="./images/symbol-defs.svg#icon-Vector-1"></use>
+  <input class="text-name"   id="user-name"  name="user-name" type="text">
+        <svg class="vector-icon"
+         width="18" 
+         height="24"
+         aria-label="name icon">
+            <use href="./images/icons.svg#icon-Vector-1"></use>
             </svg>
         </div>
         </div>
+       
         <div class="line-information" >
             <label  class="label-form" for="user-phone" >Phone</label>
-            <div class="section-icon-one">
+            <div class="section-icon-one"> 
  <input class="text-name"   type="tel" name="phone"  id="user-phone">
-     <svg class="vector-icon" width="18" height="24">
-            <use href="./images/symbol-defs.svg#icon-Vector-2" ></use>
+     <svg class="vector-icon" 
+     width="18"
+      height="24"
+      aria-label="phone icon">
+            <use href="./images/icons.svg#icon-Vector-2"></use>
         </svg>
+        </div>
     </div>
-  </div>
+ 
 <div class="line-information">
 <label class="label-form"  for="user-email">
     Email</label>
     <div class="section-icon-one">
     <input class="text-name"   type="email" name="Email" id="user-email" >
-    <svg class="vector-icon" width="18" height="24">
-            <use href="./images/symbol-defs.svg#icon-Vector-3" ></use>
+    <svg class="vector-icon" 
+    width="18" 
+    height="24"
+    aria-label="email icon">
+            <use href="./images/icons.svg#icon-Vector-3"></use>
         </svg>
         </div>
-  </div>
+        </div>
+ 
   <div class="line-information last-comment">
 <label class="label-form" for="user-comment">
     Comment</label>
@@ -522,8 +537,11 @@
 <input class="accept-link visually-hidden" type="checkbox" name="user-privacy"  value="true" id="user-privacy"   required>
 <label class="checkbox-one"  for="user-privacy">
 <span class="privacy-police">
-    <svg class="checkbox-icon"  width="10" height="8">
-       <use href="./images/symbol-defs.svg#icon-Vector-4">
+    <svg class="checkbox-icon" 
+     width="10"
+      height="8"
+      aria-label="privacy policy icon">
+       <use href="./images/icons.svg#icon-Vector-4">
            </use>
        </svg>
        </span>
