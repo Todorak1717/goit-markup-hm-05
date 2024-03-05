@@ -774,6 +774,8 @@ margin-right: auto;
 display: block;
 margin-bottom: 24px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer ;
+border: none;
 
 }
 .checkbox-one{
@@ -810,7 +812,8 @@ fill: transparent;
 .privacy-policy-words{
     color:#4d5ae5;
 }
-.accept-link .visually-hidden{
+.accept-link {
+    visibility: hidden;
     border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 
@@ -858,3 +861,10 @@ color:2E2F42;
     margin-bottom: 4px;
     line-height: 1.17;
 }
+input[type="checkbox"]:checked+span{
+background-color: #404bbf;
+border: none;
+fill:#F4F4FD;
+
+}
+
